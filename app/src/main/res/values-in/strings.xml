@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">The Movie</string>
+    <string name="text_movies">Movies</string>
+    <string name="text_tv_show">Tv Show</string>
+    <string name="tv_judul_film">Judul Film</string>
+    <string name="tv_genre_film">Genre Film</string>
+    <string name="tv_0_0">0.0</string>
+    <string name="tv_description">Description</string>
+    <string name="tv_overview">Ikhtisar</string>
+    <string name="tv_runtime">Waktu</string>
+
+    <string name="text_change_language_setting">Ganti Pengaturan Bahasa</string>
+
+    //Data Movie
+    <string-array name="data_title">
+        <item>Avengers: Infinity War</item>
+        <item>Bumblebee</item>
+        <item>Black Panther</item>
+        <item>Ant-Man and The Wasp</item>
+        <item>Deadpool 2</item>
+        <item>Aquaman</item>
+        <item>Robin Hood</item>
+        <item>Jurassic World</item>
+        <item>Pacific Rim</item>
+        <item>Venom</item>
+    </string-array>
+
+    <string-array name="data_genre">
+        <item>Petualangan, Aksi</item>
+        <item>Petualangan, Aksi</item>
+        <item>Petualangan, Aksi, Fantasi</item>
+        <item>Petualangan, Aksi, Komedi</item>
+        <item>Aksi, Komedi</item>
+        <item>Petualangan, Aksi, Fantasi</item>
+        <item>Petualangan, Aksi</item>
+        <item>Petualangan, Aksi</item>
+        <item>Aksi, Fantasi, Petualangan</item>
+        <item>Fiksi Ilmiah, Aksi</item>
+    </string-array>
+
+    <string-array name="data_rating">
+        <item>8.0</item>
+        <item>5.0</item>
+        <item>7.0</item>
+        <item>5.0</item>
+        <item>9.0</item>
+        <item>7.0</item>
+        <item>5.0</item>
+        <item>8.0</item>
+        <item>8.0</item>
+        <item>7.0</item>
+    </string-array>
+
+    <string-array name="data_runtime">
+        <item>2j 29m</item>
+        <item>1j 54m</item>
+        <item>2j 14m</item>
+        <item>1j 59m</item>
+        <item>2j 1m</item>
+        <item>2j 24m</item>
+        <item>1j 56m</item>
+        <item>2j 9m</item>
+        <item>1j 51m</item>
+        <item>1j 52m</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Raja T Challa pulang dari Amerika ke negara Wakanda yang tertutup dan berteknologi maju untuk melayani sebagai pemimpin baru di negaranya. Namun, T Challa segera menemukan bahwa ia ditantang untuk naik takhta oleh faksi di negaranya sendiri maupun di luar. Dengan menggunakan kekuatan yang disediakan untuk raja-raja Wakandan, T Challa mengasumsikan mantel Black Panther untuk bergabung dengan pacar Nakia, ibu-ratu, saudara perempuannya yang putri, anggota Dora Milaje dan seorang agen rahasia Amerika, untuk mencegah Wakanda diseret ke dalam sebuah perang Dunia.</item>
+        <item>Tepat ketika waktunya di bawah tahanan rumah akan segera berakhir, Scott Lang sekali lagi menempatkan kebebasannya dalam risiko untuk membantu Hope van Dyne dan Dr. Hank Pym terjun ke dunia kuantum dan mencoba untuk mencapai, melawan waktu dan setiap peluang untuk sukses, sebuah misi penyelamatan yang sangat berbahaya.</item>
+        <item>Deadpool tentara bayaran penyihir bertempur melawan Cable jahat dan kuat dan orang jahat lainnya untuk menyelamatkan kehidupan anak laki-laki.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, Orms setengah manusia, setengah saudara Atlantis dan pewaris sejati takhta.</item>
+        <item>Seorang pejuang perang yang keras dan komandan Moornya melakukan pemberontakan yang berani melawan mahkota Inggris yang korup.</item>
+        <item>Tiga tahun setelah jatuhnya Jurassic World, letusan gunung berapi mengancam dinosaurus yang tersisa di isla Nublar, jadi Claire Dearing, mantan manajer taman, merekrut Owen Grady untuk membantu mencegah kepunahan dinosaurus sekali lagi.</item>
+        <item>Sudah sepuluh tahun sejak The Battle of the Breach dan lautan masih, tetapi gelisah. Dipuji oleh kemenangan di Breach, program Jaeger telah berkembang menjadi kekuatan pertahanan global paling kuat dalam sejarah manusia. PPDC sekarang menyerukan yang terbaik dan tercerdas untuk bangkit dan menjadi generasi pahlawan berikutnya ketika ancaman Kaiju kembali.</item>
+        <item>Jurnalis investigasi Eddie Brock mencoba untuk kembali setelah skandal, tetapi secara tidak sengaja menjadi tuan rumah Venom, seorang simbiot alien yang sangat kuat dan sakti. Segera, ia harus mengandalkan kekuatan barunya untuk melindungi dunia dari organisasi bayangan yang mencari simbiosis mereka sendiri.</item>
+    </string-array>
+
+    <array name="data_image">
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_blackpanther</item>
+        <item>@drawable/poster_antman</item>
+        <item>@drawable/poster_deadpool2</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_robinhood</item>
+        <item>@drawable/poster_jurassicworld</item>
+        <item>@drawable/poster_pacificrim</item>
+        <item>@drawable/poster_venom</item>
+    </array>
+
+    <array name="data_imageCover">
+        <item>@drawable/bg_avengersinfinity</item>
+        <item>@drawable/bg_bumblebee</item>
+        <item>@drawable/bg_blackpanther</item>
+        <item>@drawable/bg_antman</item>
+        <item>@drawable/bg_deadpool</item>
+        <item>@drawable/bg_aquaman</item>
+        <item>@drawable/bg_robinhood</item>
+        <item>@drawable/bg_jurassicworld</item>
+        <item>@drawable/bg_pacificrim</item>
+        <item>@drawable/bg_venom</item>
+    </array>
+
+    //Data Tv Show
+    <string-array name="data_title_tvShow">
+        <item>The Mandalorian</item>
+        <item>Rick and Morty</item>
+        <item>Arrow</item>
+        <item>The Simpsons</item>
+        <item>His Dark Materials</item>
+        <item>Supernatural</item>
+        <item>The Flash</item>
+        <item>4 Block</item>
+        <item>Family Guy</item>
+        <item>South Park</item>
+    </string-array>
+
+    <string-array name="data_genre_tvShow">
+        <item>Aksi, Petualangan</item>
+        <item>Animasi, Komedi</item>
+        <item>Kejahatan, Drama, Misteri</item>
+        <item>Animasi, Komedi</item>
+        <item>Drama, Sci-Fi dan Fantasi</item>
+        <item>Drama, Misteri</item>
+        <item>Drama, Sci-Fi dan Fantasi</item>
+        <item>Drama</item>
+        <item>Animasi, Komedi</item>
+        <item>Animasi, Komedi</item>
+    </string-array>
+
+    <string-array name="data_rating_tvShow">
+        <item>7.8</item>
+        <item>8.6</item>
+        <item>5.8</item>
+        <item>7.2</item>
+        <item>7.8</item>
+        <item>7.4</item>
+        <item>6.7</item>
+        <item>4.5</item>
+        <item>6.5</item>
+        <item>7.8</item>
+    </string-array>
+
+    <string-array name="data_description_tvShow">
+        <item>Ditetapkan setelah jatuhnya Kekaisaran dan sebelum munculnya Orde Pertama, kita mengikuti upaya seorang penembak jitu di bagian luar galaksi yang jauh dari otoritas Republik Baru.</item>
+        <item>Rick adalah orang tua yang tidak seimbang secara mental tetapi berbakat secara ilmiah yang baru-baru ini terhubung kembali dengan keluarganya. Dia menghabiskan sebagian besar waktunya dengan melibatkan cucunya yang muda, Morty, dalam petualangan berbahaya dan aneh di luar angkasa dan alam semesta alternatif. Ditambah dengan kehidupan keluarga Morty yang sudah tidak stabil, peristiwa-peristiwa ini menyebabkan Morty sangat tertekan di rumah dan sekolah.</item>
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur.</item>
+        <item>Bertempat di Springfield, kota rata-rata di Amerika, pertunjukan ini berfokus pada kejenakaan dan petualangan sehari-hari keluarga Simpson; Homer, Marge, Bart, Lisa dan Maggie, serta ribuan pemain virtual. Sejak awal, serial ini telah menjadi ikon budaya pop, menarik ratusan selebriti menjadi bintang tamu. Acara ini juga menjadi terkenal karena satirnya yang tak kenal takut terhadap kehidupan politik, media, dan Amerika secara umum.</item>
+        <item>Lyra adalah seorang yatim piatu yang hidup di alam semesta paralel di mana sains, teologi, dan sihir terjalin. Lyras mencari teman yang diculik mengungkap plot menyeramkan yang melibatkan anak-anak yang dicuri, dan berubah menjadi pencarian untuk memahami fenomena misterius yang disebut Dust. Dia kemudian bergabung dalam perjalanannya oleh Will, seorang bocah lelaki yang memiliki pisau yang dapat memotong jendela antar dunia. Ketika Lyra mengetahui kebenaran tentang orang tuanya dan takdirnya yang dinubuatkan, kedua orang muda itu terperangkap dalam perang melawan kekuatan selestial yang tersebar di banyak dunia.</item>
+        <item>Ketika mereka masih kecil, Sam dan Dean Winchester kehilangan ibu mereka karena kekuatan gaib yang misterius dan iblis. Selanjutnya, ayah mereka membesarkan mereka menjadi tentara. Dia mengajar mereka tentang kejahatan paranormal yang hidup di sudut-sudut gelap dan di jalan belakang Amerika dan dia mengajari mereka cara membunuhnya. Sekarang, saudara-saudara Winchester menjelajahi seluruh negeri dengan 67 Chevy Impala mereka, melawan setiap jenis ancaman gaib yang mereka temui di sepanjang jalan.</item>
+        <item>Setelah akselerator partikel menyebabkan badai aneh, Penyelidik CSI Barry Allen disambar petir dan jatuh koma. Beberapa bulan kemudian dia terbangun dengan kekuatan kecepatan super, memberinya kemampuan untuk bergerak melalui Central City seperti malaikat penjaga yang tak terlihat. Meskipun awalnya bersemangat dengan kekuatan barunya, Barry terkejut menemukan bahwa dia bukan satu-satunya manusia meta yang diciptakan setelah ledakan akselerator dan tidak semua orang menggunakan kekuatan baru mereka untuk kebaikan. Barry bermitra dengan S.T.A.R. Lab dan mendedikasikan hidupnya untuk melindungi yang tidak bersalah. Untuk saat ini, hanya beberapa teman dekat dan rekan yang tahu bahwa Barry secara harfiah adalah manusia tercepat yang hidup, tetapi itu tidak akan lama sebelum dunia mengetahui apa Barry Allen telah menjadi The Flash.</item>
+        <item>Berbasis di Neukolln, Berlin Toni mengelola bisnis harian berurusan dengan geng-geng Arab dan akhirnya ingin meninggalkan kehidupan lamanya untuk keluarganya, tetapi seperti yang diharapkan, itu tidak pernah sesederhana itu.</item>
+        <item>Serial animasi Freakin Sweet yang sakit, terpelintir, tidak benar secara politis dan menampilkan petualangan keluarga Griffin yang disfungsional. Peter yang kikuk dan Lois yang sudah lama menderita memiliki tiga anak. Stewie (bayi yang brilian tetapi sadis yang bertekad membunuh ibunya dan mengambil alih dunia), Meg (yang tertua, dan merupakan gadis yang paling tidak populer di kota) dan Chris (anak tengah, dia tidak terlalu cerdas tetapi memiliki hasrat untuk film). Anggota terakhir keluarga itu adalah Brian - anjing yang bisa bicara dan lebih dari sekadar hewan peliharaan, ia menjaga Stewie, sementara menghirup Martinis dan memilah-milah masalah hidupnya sendiri.</item>
+        <item>Mengikuti kesalahan dari empat siswa sekolah dasar yang tidak sopan di kota South Park yang tenang dan tidak berfungsi, Colorado.</item>
+    </string-array>
+
+    <string-array name="data_runtime_tvShow">
+        <item>35m</item>
+        <item>22m</item>
+        <item>42m</item>
+        <item>22m</item>
+        <item>59m</item>
+        <item>45m</item>
+        <item>44m</item>
+        <item>50m</item>
+        <item>22m</item>
+        <item>22m</item>
+    </string-array>
+
+    <array name="data_imgPoster_tvShow">
+        <item>@drawable/poster_the_mandalorin</item>
+        <item>@drawable/poster_rickyandmorty</item>
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_his_dark_materials</item>
+        <item>@drawable/poster_supernatural</item>
+        <item>@drawable/poster_the_flash</item>
+        <item>@drawable/poster_4blocks</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_south_park</item>
+    </array>
+
+    <array name="data_imgCover_tvShow">
+        <item>@drawable/bg_themandalorian</item>
+        <item>@drawable/bg_rickyandmorty</item>
+        <item>@drawable/bg_arrow</item>
+        <item>@drawable/bg_thesimpsons</item>
+        <item>@drawable/bg_his_dark_materials</item>
+        <item>@drawable/bg_supernatural</item>
+        <item>@drawable/bg_theflash</item>
+        <item>@drawable/bg_4blocks</item>
+        <item>@drawable/bg_familyguy</item>
+        <item>@drawable/bg_south_park</item>
+    </array>
+
+</resources>
